@@ -1,0 +1,78 @@
+@media(max-width:1200px){
+    html{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:1024px){
+    html{
+        font-size: 13px;
+    }
+}
+
+@media(max-width:900px){
+    .container-fluid{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .container{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 10px;
+    }
+
+}
+
+@media(max-width:700px){
+    html{
+        font-size: 12px;
+    }
+
+    .hero-heading{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .form img,.logos img{
+        width: 75%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .container,.container-fluid{
+        width: 100%;
+    }
+
+    .work,.feature,.city,.testimonial{
+        width: 70%;
+        margin: 4rem auto;
+    }
+
+    .link{
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .hero-text,.text{
+        width: 100%;
+    }
+
+    .text .primary-heading{
+        font-size: 2rem;
+    }
+
+    .name{
+        text-align: left;
+    }
+
+}
